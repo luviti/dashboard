@@ -1,0 +1,64 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+	background: #FAF9FC
+}
+
+.clear{
+	clear: both;
+}
+
+#sidebar {
+  @import 'sidebar';
+}
+
+#main-content {
+  @import 'main-content';
+}
+
+#ultima-atividades {
+  @import 'atividades';
+}
+
+.content1{
+	float: left;
+	width: 67%;
+	max-height: 500px;
+   overflow-y: auto;
+
+
+	.panel{
+		padding: 30px;
+		width: 100%;
+		float: left;
+		border: 2px solid #EBEBEB;
+		background-color: white;
+
+	 h2{
+			color: #7F7F7F;
+			font-size: 24px;
+			font-weight: normal;
+		}
+
+		p{
+			color: #B2B2B2;
+			font-size: 17px;
+		}
+	}
+}
+
+
+	@media screen and (max-width: 768px){
+		.ultimas-atividades{width: 100%;}
+		.content1{width: 100%;}		
+		.panel{width: 100%}
+		.sidebar{display: none;}
+		div.main-content{width: 100% !importa}
+	}

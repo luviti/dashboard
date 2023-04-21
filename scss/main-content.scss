@@ -1,0 +1,87 @@
+div.main-content{
+	
+
+	height: 100%;
+
+	header{
+		height: 50px;
+		background-color: white;
+		padding: 35px 15px;
+		border-bottom: 2px solid #ccc
+	}
+
+	.pesquisa-campo{
+		float: right;
+	}
+
+	.icone-pesquisa{
+		background-color: #D6D6D6;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		color: white;
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		top: -1px;
+	}
+
+	.icone-pesquisa i{position: relative;top: 5px;}
+
+	.pesquisa-campo form{
+		display: inline-block;
+	}
+
+	.pesquisa-campo input[type=text]{
+		width: 200px;
+		height: 30px;
+		border-left: 0;
+		border-top: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+
+	.icone-alerta{
+	cursor: pointer;
+	background-color: none;
+	width: 30px;
+	height: 30px;
+	margin-right: 28px;
+	float: right;
+	text-align: center;
+	position: relative;
+}
+
+.icone-alerta p{
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	display: inline-block;
+	background: #ED7387;
+	color: white;
+	padding:3px;
+	font-size: 12px;
+	border-radius: 1em;
+}
+
+.icone-alerta i{
+	line-height: 30px;
+	font-size: 18px;
+	color: #ED7387;
+	font-weight: bold;
+}
+
+.nome-usuario{
+	float: left;
+}
+
+.nome-usuario h2 i{
+	font-weight: normal;
+	color: #A7A7A7;
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+}
